@@ -1,0 +1,16 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1040.0
+margin_bottom = 610.0
+color = Color( 1, 0, 0, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 430.0
+margin_top = 280.0
+margin_right = 650.0
+margin_bottom = 390.0
+rect_scale = Vector2( 2, 2 )
+text = "Out of Pokeballs"

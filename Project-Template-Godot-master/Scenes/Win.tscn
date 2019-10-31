@@ -1,0 +1,16 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1030.0
+margin_bottom = 600.0
+color = Color( 0.501961, 0, 0.811765, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 380.0
+margin_top = 290.0
+margin_right = 515.0
+margin_bottom = 304.0
+rect_scale = Vector2( 2, 2 )
+text = "You Caught Them All!"
